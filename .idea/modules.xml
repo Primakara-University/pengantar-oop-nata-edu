@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../pengantar-oop-nata-edu.iml" filepath="$PROJECT_DIR$/../pengantar-oop-nata-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pengantar-oop.iml" filepath="$PROJECT_DIR$/pengantar-oop.iml" />
     </modules>
   </component>
 </project>

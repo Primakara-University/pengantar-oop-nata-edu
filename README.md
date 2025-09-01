@@ -1,4 +1,4 @@
-# Pengantar OOP: Welcome Message
+# Pengantar OOP: Java Welcome Message
 
 👋 Program Java sederhana yang menampilkan ucapan selamat datang dengan nama pengguna.
 
@@ -36,13 +36,14 @@
 
 ## 🚀 Getting Started
 
-### 🔧 Prerequisites
+### 🛠️ Prerequisites
 
-- [**Java JDK 21** atau lebih baru](https://www.java.com/en/download/)
+- [**Java JDK 21** atau lebih baru](https://adoptium.net/temurin/releases/)
 - [**Git Version Control**](https://git-scm.com/downloads)
 - [**IntelliJ IDEA**](https://www.jetbrains.com/idea/download/)
 
-### ⚙️ Installation & Run
+<!-- Run Locally -->
+### 💻 Run Locally
 
 Clone repositori:
 
@@ -59,40 +60,72 @@ cd pengantar-oop-nata-edu
 Kompilasi program:
 
 ```bash
-javac Main.java
+javac src/Main.java
 ```
 
 Jalankan program:
 
 ```bash
-java Main
+java src/Main.java
 ```
 
-## 📖 Deskripsi Program
+<!-- Program Description -->
+## ✨ Program Description
 
-Program ini ditulis menggunakan bahasa **Java**. Fungsinya sederhana, yaitu meminta pengguna memasukkan **nama**, lalu menampilkan ucapan selamat datang yang disesuaikan dengan nama tersebut.
+**Java Welcome Message**
+ℹ️ Program ini ditulis menggunakan bahasa **Java**. Fungsinya sederhana: meminta pengguna memasukkan **nama**, lalu menampilkan ucapan selamat datang yang dipersonalisasi. 
 
-Contoh:
+**Contoh:**
 
 ```
 Masukkan nama Anda: Budi
-Selamat datang, Budi!
+Selamat datang di Java, Budi!
 ```
 
+<!-- Project Plan -->
+## 🎯 Project Plan
+
+Pada semester ini, proyek sederhana yang ingin dibuat adalah **Guessing Game**.
+
+**Deskripsi:**
+ 🔍 Guessing Game adalah permainan tebak angka di mana komputer akan memilih angka acak, lalu pengguna diminta menebak angka tersebut. Program akan memberi tahu apakah tebakan terlalu besar atau terlalu kecil. Permainan berakhir ketika pengguna berhasil menebak angka dengan benar, dan program akan menampilkan jumlah percobaan yang dibutuhkan.
+
+**Fitur utama:**
+
+1. 🎚️ Pemilihan tingkat kesulitan:
+   * 🟢 Easy (1–50)
+   * 🟡 Medium (1–100)
+   * 🔴 Hard (1–200)
+2. 🔍 Memberi petunjuk apakah tebakan terlalu tinggi atau rendah.
+3. 🏆 Menampilkan jumlah percobaan ketika angka berhasil ditebak.
+
+**Cara bermain:**
+
+1. 🔄 Jalankan program.
+2. 🎚️ Pilih tingkat kesulitan:
+3. 🔢 Masukkan tebakan angka.
+4. 🔍 Program akan memberi petunjuk sampai angka yang benar ditemukan.
+5. 🎉 Permainan selesai dengan pesan kemenangan dan jumlah percobaan.
+
+<!-- Contributing -->
 ## 👋 Contributing
 
 <a href="https://github.com/Primakara-University/pengantar-oop-nata-edu/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Primakara-University/pengantar-oop-nata-edu" />
 </a><br/>
 
-Kontribusi selalu terbuka! Silakan buat _issue_ atau _pull request_ untuk perbaikan.
+Kontribusi selalu terbuka!
 
+Silahkan lihat [CONTRIBUTING.md](https://github.com/Primakara-University/pengantar-oop-nata-edu/blob/main/CONTRIBUTING.md) untuk cara memulai kontribusi.
+
+<!-- License -->
 ## 📜 License
 
-Proyek ini dilisensikan di bawah **MIT License**. Lihat file [LICENSE](https://www.google.com/search?q=https://github.com/Primakara-University/pengantar-oop-nata-edu/blob/main/LICENSE) untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah **MIT License**. Lihat file [LICENSE](https://github.com/Primakara-University/pengantar-oop-nata-edu/blob/main/LICENSE) untuk informasi lebih lanjut.
 
 
-## 📬 Contact
+<!-- Contact -->
+## 📢 Contact
 
 Nata Inditama - [LinkedIn](https://linkedin.com/in/natainditama/)
 

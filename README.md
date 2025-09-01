@@ -1,6 +1,4 @@
-# Pengantar OOP: Java Welcome Message
-
-👋 Program Java sederhana yang menampilkan ucapan selamat datang dengan nama pengguna.
+# Pengantar OOP
 
 <p>
   <a href="https://github.com/Primakara-University/pengantar-oop-nata-edu/graphs/contributors">
@@ -73,6 +71,7 @@ java src/Main.java
 ## ✨ Program Description
 
 **Java Welcome Message**
+
 ℹ️ Program ini ditulis menggunakan bahasa **Java**. Fungsinya sederhana: meminta pengguna memasukkan **nama**, lalu menampilkan ucapan selamat datang yang dipersonalisasi. 
 
 **Contoh:**
@@ -88,6 +87,7 @@ Selamat datang di Java, Budi!
 Pada semester ini, proyek sederhana yang ingin dibuat adalah **Guessing Game**.
 
 **Deskripsi:**
+
  🔍 Guessing Game adalah permainan tebak angka di mana komputer akan memilih angka acak, lalu pengguna diminta menebak angka tersebut. Program akan memberi tahu apakah tebakan terlalu besar atau terlalu kecil. Permainan berakhir ketika pengguna berhasil menebak angka dengan benar, dan program akan menampilkan jumlah percobaan yang dibutuhkan.
 
 **Fitur utama:**
@@ -114,9 +114,7 @@ Pada semester ini, proyek sederhana yang ingin dibuat adalah **Guessing Game**.
   <img src="https://contrib.rocks/image?repo=Primakara-University/pengantar-oop-nata-edu" />
 </a><br/>
 
-Kontribusi selalu terbuka!
-
-Silahkan lihat [CONTRIBUTING.md](https://github.com/Primakara-University/pengantar-oop-nata-edu/blob/main/CONTRIBUTING.md) untuk cara memulai kontribusi.
+Kontribusi selalu terbuka! Silahkan lihat [CONTRIBUTING.md](https://github.com/Primakara-University/pengantar-oop-nata-edu/blob/main/CONTRIBUTING.md) untuk cara memulai kontribusi.
 
 <!-- License -->
 ## 📜 License

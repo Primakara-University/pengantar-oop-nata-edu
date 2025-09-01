@@ -1,14 +1,18 @@
-import  java.util.Scanner;
+
+import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Masukkan nama Anda: ");
+            String nama = scanner.nextLine();
 
-        System.out.print("Masukkan nama Anda: ");
-        String nama = scanner.nextLine();
+            System.out.println("Selamat datang di Java, " + nama + "!");
 
-        System.out.println("Selamat datang di Java, " + nama + "!");
-
-        scanner.close();
+            scanner.close();
+        } catch (Exception e) {
+            System.out.println("Terjadi kesalahan: " + e.getMessage());
+        }
     }
 }

@@ -1,11 +1,20 @@
 public class Person {
-    private String nama;
+    private String name;
+    private int age;
 
-    public String getNama() {
-        return nama;
+    public int getAge() {
+        return age;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

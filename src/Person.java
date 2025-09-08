@@ -1,6 +1,7 @@
 public class Person {
     private String name;
     private int age;
+    private Person friend;
 
     public int getAge() {
         return age;
@@ -16,5 +17,17 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Person getFriend() {
+        return friend;
+    }
+
+    public void setFriend(Person friend) {
+        this.friend = friend;
+    }
+
+    public void sayHello() {
+        System.out.println("Hello, nama saya " + this.name);
     }
 }

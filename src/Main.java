@@ -1,14 +1,34 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            Person p1 = new Person();
+            Person[] people = new Person[10];
+
+            for (int i = 1; i <= people.length; i++) {
+                Random random = new Random();
+
+                people[i] = new Person("Ariana Gr" + i, random.nextInt(100));
+                people[i].setName("Budiono " + i);
+                people[i].setAge(18 + i);
+
+                people[i].setFriend(people[random.nextInt(people.length)]);
+                people[i].sayHello();
+
+                if (people[i].getFriend() != null) {
+                    System.out.println("My friend is " + people[i].getFriend().getName());
+                }
+
+                System.out.println();
+            }
+
+            Person p1 = new Person("Budiono", 18);
             p1.setName("Budi");
             p1.setAge(18);
             p1.sayHello();
 
-            Person p2 = new Person();
+            Person p2 = new Person("Sitajo", 19);
             p2.setName("Sita");
             p2.setAge(19);
 
